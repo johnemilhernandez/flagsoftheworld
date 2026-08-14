@@ -1,0 +1,265 @@
+body {
+  background: #efefef;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.lang-menu {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  background: #fff;
+  width: 150px;
+}
+
+.lang-menu .selected-lang {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+
+.lang-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: none;
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  top: 100%;
+}
+
+.lang-menu:hover ul {
+  display: block;
+}
+
+.lang-menu li a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+
+.ar:before,
+.bg:before,
+.cs:before,
+.da:before,
+.de:before,
+.el:before,
+.en:before,
+.es:before,
+.fi:before,
+.fr:before,
+.hr:before,
+.hu:before,
+.id:before,
+.it:before,
+.iw:before,
+.ja:before,
+.ko:before,
+.lt:before,
+.ms:before,
+.nl:before,
+.no:before,
+.pl:before,
+.pt:before,
+.ro:before,
+.ru:before,
+.sk:before,
+.sl:before,
+.sv:before,
+.tr:before,
+.uk:before,
+.vi:before,
+.zh-CN:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  background-size: cover;
+  background-position: center;
+}
+
+.ar:before {
+  background-image: url(/lang/ar.png);
+}
+
+.bg:before {
+  background-image: url(/lang/bg.png);
+}
+
+.cs:before {
+  background-image: url(/lang/cs.png);
+}
+
+.da:before {
+  background-image: url(/lang/da.png);
+}
+
+.de:before {
+  background-image: url(/lang/de.png);
+}
+
+.el:before {
+  background-image: url(/lang/el.png);
+}
+
+.en:before {
+  background-image: url(/lang/en.png);
+}
+
+.es:before {
+  background-image: url(/lang/es.png);
+}
+
+.fi:before {
+  background-image: url(/lang/fi.png);
+}
+
+.fr:before {
+  background-image: url(/lang/fr.png);
+}
+
+.hr:before {
+  background-image: url(/lang/hr.png);
+}
+
+.hu:before {
+  background-image: url(/lang/hu.png);
+}
+
+.id:before {
+  background-image: url(/lang/id.png);
+}
+
+.it:before {
+  background-image: url(/lang/it.png);
+}
+
+.iw:before {
+  background-image: url(/lang/iw.png);
+}
+
+.ja:before {
+  background-image: url(/lang/ja.png);
+}
+
+.ko:before {
+  background-image: url(/lang/ko.png);
+}
+
+.lt:before {
+  background-image: url(/lang/lt.png);
+}
+
+.ms:before {
+  background-image: url(/lang/ms.png);
+}
+
+.nl:before {
+  background-image: url(/lang/nl.png);
+}
+
+.no:before {
+  background-image: url(/lang/no.png);
+}
+
+.pl:before {
+  background-image: url(/lang/pl.png);
+}
+
+.pt:before {
+  background-image: url(/lang/pt.png);
+}
+
+.ro:before {
+  background-image: url(/lang/ro.png);
+}
+
+.ru:before {
+  background-image: url(/lang/ru.png);
+}
+
+.sk:before {
+  background-image: url(/lang/sk.png);
+}
+
+.sl:before {
+  background-image: url(/lang/sl.png);
+}
+
+.sv:before {
+  background-image: url(/lang/sv.png);
+}
+
+.tr:before {
+  background-image: url(/lang/tr.png);
+}
+
+.uk:before {
+  background-image: url(/lang/uk.png);
+}
+
+.vi:before {
+  background-image: url(/lang/vi.png);
+}
+
+.zh-CN:before {
+  background-image: url(/lang/zh-CN.png);
+}
+
+table {
+  width: 960px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  background: #fff;
+  text-align: center;
+}
+
+th {
+  background: #ddd;
+  color: #000;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 26px;
+}
+
+td {
+  background: #fafafa;
+  color: #000;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  width: 204px;
+}
